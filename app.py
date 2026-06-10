@@ -101,17 +101,18 @@ with st.sidebar:
 
 # Центральная часть
 
-st.markdown(
-"""
-<div class="center-container">
+st.markdown("""
+<div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:75vh;">
 
-    <div class="orb"></div>
+<div class="orb"></div>
 
-    <div class="orb-text">
-        кликни чтобы поговорить
-    </div>
+<p style="
+font-family:Caveat,cursive;
+font-size:42px;
+margin-top:25px;
+">
+кликни чтобы поговорить
+</p>
 
 </div>
-""",
-unsafe_allow_html=True
-)
+""", unsafe_allow_html=True)
